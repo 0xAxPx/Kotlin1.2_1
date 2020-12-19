@@ -14,7 +14,7 @@ internal class MainKtKtTest {
             @Test
             fun testZeroPayFee4VkPlay() {
                 val feeVk = payFee(lastTransferSum = 34_999, currentTransferSum = 14_999)
-                assertTrue(feeVk == 0)
+                assertTrue(feeVk == -11)
             }
         }
 

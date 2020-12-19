@@ -1,7 +1,4 @@
 import java.lang.IllegalArgumentException
-import java.math.RoundingMode
-import java.text.DecimalFormat
-import java.text.DecimalFormatSymbols
 import java.util.*
 
 fun main() {
